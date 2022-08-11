@@ -1,1 +1,26 @@
 @import url(_reset.css);
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.slides-wrapper {
+  overflow: hidden;
+}
+
+.slides {
+  display: flex;
+}
+
+.slide {
+  flex-shrink: 0;
+  max-width: 800px;
+  margin: 0 20px;
+  width: 80vw;
+}
+
+.slides {
+  transform: translate3d(-200px, 0px, 0px);
+}
+
