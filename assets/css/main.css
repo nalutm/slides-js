@@ -34,3 +34,11 @@ img {
   opacity: 1;
   transform: scale(1);
 }
+
+.arrow-nav {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px auto;
+  width: 70vw;
+}
