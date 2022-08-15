@@ -42,3 +42,25 @@ img {
   margin: 20px auto;
   width: 70vw;
 }
+
+[data-control = "slide"] {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+[data-control = "slide"] li a{
+  background-color: #fb5;
+  border-radius: 50%;
+  display: block;
+  height: 12px;
+  overflow: hidden;
+  width: 12px;
+  text-indent: -999px;
+}
+
+[data-control = "slide"] li.active a, 
+[data-control = "slide"] li a:hover {
+  background-color: #e54;
+}
